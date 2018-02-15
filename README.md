@@ -22,29 +22,29 @@ var demo = require("vbhvrn1988")
 
 ## Rules defined
   1. Detect if any <img /> tag without alt attribute
-  ```
-  var rule1 = new demo.RuleImageWithoutAlt();
-  ```
+      ```
+      var rule1 = new demo.RuleImageWithoutAlt();
+      ```
 
   2. Detect if any <a /> tag without rel attribute
      ```
      var rule2 = new demo.RuleAttributeWithoutRel();
      ```
 
-  3. In <head> tag
-    * Detect if header doesn’t have <title> tag
-    * Detect if header doesn’t have <meta name=“descriptions” /> tag
-    * Detect if header doesn’t have <meta name=“keywords”/> tag
+  3. In head tag
+     * Detect if header doesn’t have title tag
+     * Detect if header doesn’t have meta name="descriptions" tag
+     * Detect if header doesn’t have meta name="keywords" tag
 
-    ```
-    var rule3 = new demo.RuleHeadWithMessyHead();
-    ```
-  4. Detect if there’re more than 15 <strong> tag in HTML (15 is a value should be configurable by user)
-    ```
-    var rule4 = new demo.RuleWithMoreStrong(2);
-    ```
+        ```
+        var rule3 = new demo.RuleHeadWithMessyHead();
+        ```
+  4. Detect if there’re more than 15 strong tag in HTML (15 is a value should be configurable by user)
+        ```
+        var rule4 = new demo.RuleWithMoreStrong(2);
+        ```
 
-  5. Detect if a HTML have more than one <H1> tag.
+  5. Detect if a HTML have more than one H1 tag.
      ```
      var rule5 = new demo.RuleWithMoreH1();
      ```
