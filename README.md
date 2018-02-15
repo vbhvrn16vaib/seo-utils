@@ -32,9 +32,9 @@ var demo = require("vbhvrn1988")
      ```
 
   3. In <head> tag
-    ⋅⋅* Detect if header doesn’t have <title> tag
-    ⋅⋅* Detect if header doesn’t have <meta name=“descriptions” /> tag
-    ⋅⋅* Detect if header doesn’t have <meta name=“keywords”/> tag
+    * Detect if header doesn’t have <title> tag
+    * Detect if header doesn’t have <meta name=“descriptions” /> tag
+    * Detect if header doesn’t have <meta name=“keywords”/> tag
 
     ```
     var rule3 = new demo.RuleHeadWithMessyHead();
