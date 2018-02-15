@@ -5,7 +5,7 @@ check html for seo defects
 Sample :
 Go to the link https://npm.runkit.com/vbhvrn1988 and pase the below code snippet.
 
-
+```
 var demo = require("vbhvrn1988")
 
 var main = new demo.Main();
@@ -25,3 +25,4 @@ main.addRule(rule5);
 
 main.execute();
 main.printOnConsole();
+```
